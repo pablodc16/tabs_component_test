@@ -1,0 +1,41 @@
+.nav-cont {
+  ul {
+    padding: 0;
+
+    @media (min-width: 768px) {
+      display: flex;
+    }
+
+    li {
+      list-style: none;
+
+      @media (min-width: 768px) {
+        flex-grow: 1;
+      }
+
+      a {
+        display: block;
+        color: $blue-color;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 5px 10px;
+        border-left: 2px solid $gray-color;
+
+        @media (min-width: 768px) {
+          border-left: 0;
+          border-bottom: 2px solid $gray-color;
+        }
+
+        &.active {
+          color: $black-color;
+          border-left: 2px solid $black-color;
+
+          @media (min-width: 768px) {
+            border-left: 0;
+            border-bottom: 2px solid $black-color;
+          }
+        }
+      }
+    }
+  }
+}

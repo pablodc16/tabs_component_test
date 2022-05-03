@@ -1,15 +1,7 @@
-.tabs-cont {
-  display: none;
+@import "variables";
+@import "nav-menu";
+@import "panels";
 
-  &#tab-1{
-    display: block;
-  }
-
-
-  .img-cont {
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
+.comp-title {
+  margin-bottom: 20px;
 }
