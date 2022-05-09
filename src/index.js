@@ -2,8 +2,6 @@
 import displayTab from "./scripts/display-tab";
 
 // styles
-import "../node_modules/bootstrap/scss/bootstrap-reboot.scss";
-import "../node_modules/bootstrap/scss/bootstrap-grid.scss";
 import "./styles/main.scss";
 
 // images
